@@ -17,8 +17,10 @@ plots/
 visual/visualization/
 issue/XJ_data/
 pix_curve/
-swincrack_RBI/
 v100_checkpoints/
 issue/
 pretrained_model/
 model_data/
+swincrack_RBI/data/
+swincrack_RBI/datasets
+swincrack_RBI/inference/
