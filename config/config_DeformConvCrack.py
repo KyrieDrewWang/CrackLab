@@ -72,12 +72,12 @@ class Config(bconfig):
     # args for interimage model structure
 
     AG = False
-    AGD = False
+    AGD = True
     
     SIDEOUT = False
     UPCBAM = False
     
-    CBAMUP = False
+    CBAMUP = True
     
     CBAMDECODER = False
 

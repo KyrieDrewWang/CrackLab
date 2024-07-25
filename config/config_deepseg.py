@@ -68,7 +68,7 @@ class Config(bconfig):
     tensorboardlog  = os.path.join("log", "tensorboard",name)
     train_data_path = 'datasets/crack500_train.txt'
     val_data_path   = 'datasets/crack500_val.txt'
-    test_data_path  = 'datasets/WHCF218_val.txt'
+    test_data_path  = 'datasets/crack500_val.txt'
     checkpoint_path = './checkpoints'
     log_path = './log/'+'visdom/'+name+'.txt'
     saver_path = os.path.join(checkpoint_path, name)

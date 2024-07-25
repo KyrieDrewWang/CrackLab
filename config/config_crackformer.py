@@ -8,7 +8,7 @@ from _config import baseconfig as bconfig
 
 
 class Config(bconfig):
-    name = 'CrackTree260-CrackFormer'
+    name = 'crack500-CrackFormer'
     vis_env = name
     network_name = "crackformer"
     setproctitle.setproctitle("%s" % name)
@@ -62,7 +62,7 @@ class Config(bconfig):
     tensorboardlog  = os.path.join("log", "tensorboard",name)
     train_data_path = 'datasets/crack500_train.txt'
     val_data_path   = 'datasets/crack500_val.txt'
-    test_data_path  = 'datasets/CrackTree260_val.txt'
+    test_data_path  = 'datasets/crack500_.txt'
     checkpoint_path = './checkpoints'
     log_path = './log/'+'visdom/'+name+'.txt'
     saver_path = os.path.join(checkpoint_path, name)

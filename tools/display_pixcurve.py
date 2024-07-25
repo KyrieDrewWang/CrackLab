@@ -45,10 +45,10 @@ def main(home_dir, img_name, lim, pos, output):
         
 if __name__ == '__main__':
     
-    home_dir = "compare_dir/Stone331"
-    dataset = "Stone331"
-    img_name = "302.bmp"
-    lim = (145, 155)
+    home_dir = "compare_dir/crack500 copy"
+    dataset = "crack500"
+    img_name = "20160222_114806_1281_721.png"
+    lim = (340, 420)
     pos = 210
     log = True
     

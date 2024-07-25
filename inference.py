@@ -54,6 +54,6 @@ def test(net_name, model_path):
                 guid_pred = guid_pred.numpy() * 255
                 cv2.imwrite(fuse5_name, guid_pred.astype(np.uint8))
 if __name__ == '__main__':
-    net_name = "DeformConvCrack"
-    model_path = '/data/wc/CrackLab/checkpoints/CrackLS315-DeformConvCrack-offset2-CBAMup/CrackLS315-DeformConvCrack-offset2-CBAMup_epoch(195)_acc(0.88504_0.85445)_0000054_2024-03-05-02-09-03.pth'
+    net_name = "crackformer"
+    model_path = 'checkpoints/compairision_methods/Crack500/crack500-CrackFormer/crack500-CrackFormer_epoch(39)_acc(0.83949_0.82532)_0000050_2023-09-19-16-38-21.pth'
     test(net_name, model_path)
