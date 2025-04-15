@@ -2,7 +2,7 @@ import os
 import shutil
 
 src_dir = "compare_dir/crack500/DeepCrack"
-tar_dir = "/data/wc/Dataset/DeepCrackTP_datasets/crack500/img"
+tar_dir = "DeepCrackTP_datasets/crack500/img"
 save_dir = "compare_dir/crack500/Input"
 dir_list = os.listdir(src_dir)
 tar_lists = os.listdir(tar_dir)

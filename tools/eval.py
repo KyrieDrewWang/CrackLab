@@ -143,8 +143,8 @@ def get_statistics_cls(pred, gt, num_cls=2):
 
 
 if __name__ == "__main__":
-    pred_dir = "/data/wc/CrackLab/inference/deepcrack/CrackTree260-DeepCrack/"
-    ann_dir  = "/data/wc/Dataset/DeepCrackTP_datasets/CrackTree260/CrackTree260_512/CrackTree260_ann/test"
+    pred_dir = "deepcrack/CrackTree260-DeepCrack/"
+    ann_dir  = "DeepCrackTP_datasets/CrackTree260/CrackTree260_512/CrackTree260_ann/test"
     metric_mode = 'prf'
     method_name = os.path.split(os.path.split(pred_dir)[0])[1].split("_")[0]
     output = os.path.join("plot", method_name+".prf")

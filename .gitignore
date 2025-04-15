@@ -26,3 +26,5 @@ swincrack_RBI/datasets
 swincrack_RBI/inference/
 swincrack_RBI/
 .vscode/
+nets/ops_dcnv3/DCNv3.egg-info/
+
