@@ -24,3 +24,5 @@ model_data/
 swincrack_RBI/data/
 swincrack_RBI/datasets
 swincrack_RBI/inference/
+swincrack_RBI/
+.vscode/
